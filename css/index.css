@@ -1,0 +1,48 @@
+@font-face {
+     font-family: Bebas;
+     src: url('https://raw.githubusercontent.com/funkb/funkb.github.io/master/img/BEBAS.ttf');
+}
+ @font-face {
+     font-family: Fashion;
+     src: url('https://raw.githubusercontent.com/funkb/funkb.github.io/master/img/Fashion%20Fetish%20Small%20Caps.ttf');
+}
+body{ margin: 0; }
+.navbar{
+    background-color: red;
+    width: 100%;
+    height: 8vw;
+}
+            
+.navList{
+    list-style-type: none;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.nav-element{
+    font-family: Bebas;
+    font-size: 2vw;
+    float: left;
+    display: inline;
+    padding: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background-color: green;
+    color: white;
+   
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+.nav-element:hover{
+    background-color: grey;
+}
+.active{
+    background-color: blue;
+    
+}
+.active:hover{
+    background-color: #0066ff;
+}
+
